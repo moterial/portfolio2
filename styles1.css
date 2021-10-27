@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&family=Zen+Antique+Soft&display=swap');
+
+
+*{
+    margin:0 ;
+    padding:0;
+    font-family: sans-serif;
+    background: #eff4fd;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px ;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:#EF7C8E;
+}
+
+.introduction{
+    margin-left: 8%;
+    margin-top: 5%;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.introduction h1{
+    font-size: 50px;
+    font-family: 'Sniglet', cursive;
+    font-family: 'Zen Antique Soft', serif;
+    color: #78766c;
+    margin-bottom: 20px;
+ 
+}
+
+.introduction article{
+    color:#252724;
+    font-family: 'Sniglet', cursive;
+    font-family: 'Zen Antique Soft', serif;
+ 
+
+}
+
+span{
+    color: #05445E;
+    font-family: 'Sniglet', cursive;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.introduction img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    height: 500px;
+
+}

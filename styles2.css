@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&family=Zen+Antique+Soft&display=swap');
+
+
+*{
+    margin:0 ;
+    padding:0;
+    font-family: 'Sniglet', cursive;
+    font-family: 'Zen Antique Soft', serif;
+    background: #eff4fd;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px ;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:#EF7C8E;
+}
+
+.skills{
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.skills h1{
+    font-size: 50px;
+    font-family: 'Sniglet', cursive;
+    font-family: 'Zen Antique Soft', serif;
+    color: #78766c;
+    margin-bottom: 20px;
+}
+
+.instagram{
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.instagram_demo{
+    width: 20%;
+    height: 20%;
+}
+
+.Instagram-clone{
+    display: flex;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.Instagram-clone h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.instagram_intro{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
