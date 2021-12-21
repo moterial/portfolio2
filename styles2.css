@@ -54,7 +54,7 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 
-.instagram{
+.project_icon{
     width: 15%;
     height: 15%;
     display: block;
@@ -84,4 +84,10 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     padding-left: 15px;
+}
+
+.watch_website{
+    display: flex;
+    font-weight: bold;
+    padding-top: 25px;
 }
